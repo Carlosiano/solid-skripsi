@@ -470,6 +470,10 @@ body {
   #HERO
 \*-----------------------------------*/
 
+section.section.hero#beranda {
+  background-image: url('/src/assets/images/hero-bg.svg');
+}
+
 .hero { 
   padding-block-start: calc(var(--section-padding) + 80px);
  }

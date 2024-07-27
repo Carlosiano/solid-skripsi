@@ -10,7 +10,6 @@ import {
   checkmarkDoneOutline,
   heroBanner1,
   heroBanner2,
-  heroBg,
   heroShape2,
   play,
   videoBanner,
@@ -35,9 +34,8 @@ export default function Main() {
 
           <section
             class="section hero has-bg-image"
-            id="home"
-            aria-label="home"
-            style={`background-image: url(${heroBg})`}
+            id="beranda"
+            aria-label="beranda"
           >
             <div class="container">
               <div class="hero-content">
